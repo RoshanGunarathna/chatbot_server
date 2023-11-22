@@ -1,0 +1,616 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hi there",
+                "Are you there?",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, I am here",
+                "Hi, Good to see you",
+                "Hi there, what can I do for you?",
+                "Hello, how can I help?"
+
+            ]
+        },
+
+        {
+            "tag": "ok",
+            "patterns": [
+                "ok",
+                "okay",
+                "ok ok",
+                "ahh",
+                "okkk"
+
+            ],
+            "responses": [
+                "what can I do for you?",
+                "Can I help you ?"
+
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Nice chatting with you, Bye",
+                "Goodbye",
+                "Later, I will come"
+            ],
+            "responses": [
+                "See you",
+                "Bye!",
+                "Ok, Bye!",
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Have a great time, Bye"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thank you for helping me",
+                "thankyou",
+                "That's helpful",
+                "Thank's a lot!",
+                "Thank you so much"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "I'm happy that I could help",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "badinput",
+            "patterns": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+            "responses": [
+                "Sorry, can't understand you",
+                "I did not understand that",
+                "What did you mean?",
+                "Sorry, I did not understand, tell me more"
+            ]
+        },
+        {
+
+            "tag": "headache",
+            "patterns": [
+                "I have a headache",
+                "Give me some solution to headache",
+                "How to relieve a headache?",
+                "Any tips for curing a headache?",
+                "I'm suffering from a headache",
+                "Can you recommend remedies for a headache?",
+                "Dealing with a headache, any advice?",
+                "What's a quick fix for a headache?",
+                "How can I get rid of a headache?",
+                "Headache relief"
+            ],
+            "responses": [
+                "Drink plenty of water and rest in a quiet, dark room.",
+                "Try applying a cold or warm compress to your forehead.",
+                "Consider taking over-the-counter pain relievers like ibuprofen or acetaminophen.",
+                "Practice deep breathing or meditation to help relax and reduce stress.",
+                "Ensure you're getting enough sleep and manage your stress levels.",
+                "Avoid triggers like bright lights and loud noises."
+            ]
+        },
+
+
+
+        {
+            "tag": "nausea",
+            "patterns": [
+                "I feel nauseous",
+                "How to get rid of nausea?",
+                "Any remedies for nausea?",
+                "What can I do to relieve nausea?",
+                "Dealing with nausea, any suggestions?",
+                "Can you recommend solutions for nausea?",
+                "I'm experiencing nausea",
+                "How to ease nausea?",
+                "Nausea relief tips",
+                "Help with nausea"
+            ],
+            "responses": [
+                "Sip on ginger tea or chew ginger gum to alleviate nausea.",
+                "Eat small, bland meals and avoid spicy or greasy foods.",
+                "Stay hydrated with clear fluids like water or electrolyte drinks.",
+                "Consider over-the-counter nausea medications.",
+                "Rest in a comfortable position and avoid sudden movements.",
+                "Sniffing peppermint oil may help alleviate nausea."
+            ]
+        },
+        {
+            "tag": "fever",
+            "patterns": [
+                "I have a fever",
+                "What should I do if I have a fever?",
+                "Any remedies for reducing fever?",
+                "How to bring down a fever?",
+                "Dealing with a high temperature, any advice?",
+                "Can you recommend solutions for fever?",
+                "I'm running a fever",
+                "Fever relief tips",
+                "Help with high body temperature",
+                "What helps with fever?"
+            ],
+            "responses": [
+                "Stay hydrated and get plenty of rest.",
+                "Take over-the-counter fever-reducing medications like acetaminophen.",
+                "Apply a damp cloth to your forehead to help cool down.",
+                "Keep the room temperature comfortable and avoid excessive layering of clothing.",
+                "If the fever persists, consult with a healthcare professional.",
+                "Monitor your temperature regularly."
+            ]
+        },
+        {
+            "tag": "cough",
+            "patterns": [
+                "I have a persistent cough",
+                "How to get rid of a cough?",
+                "Any remedies for coughing?",
+                "What can I do to relieve a cough?",
+                "Dealing with a cough, any suggestions?",
+                "Can you recommend solutions for a cough?",
+                "I'm coughing a lot",
+                "Cough relief tips",
+                "Help with persistent cough",
+                "What helps with coughing?"
+            ],
+            "responses": [
+                "Stay hydrated by drinking warm liquids like tea or soup.",
+                "Use a humidifier to add moisture to the air and soothe your throat.",
+                "Consider over-the-counter cough suppressants.",
+                "Gargle with warm saltwater to relieve throat irritation.",
+                "Rest your voice and avoid irritants like smoke and strong odors.",
+                "If the cough persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "sore_throat",
+            "patterns": [
+                "I have a sore throat",
+                "How to get rid of a sore throat?",
+                "Any remedies for a sore throat?",
+                "What can I do to relieve a sore throat?",
+                "Dealing with a sore throat, any suggestions?",
+                "Can you recommend solutions for a sore throat?",
+                "My throat hurts",
+                "Sore throat relief tips",
+                "Help with throat pain",
+                "What helps with a sore throat?"
+            ],
+            "responses": [
+                "Gargle with warm saltwater to soothe the throat.",
+                "Stay hydrated by drinking warm liquids like herbal tea.",
+                "Use throat lozenges or hard candies to alleviate discomfort.",
+                "Avoid irritants like smoking and strong odors.",
+                "Consider over-the-counter pain relievers like acetaminophen or ibuprofen.",
+                "If the sore throat persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "stomachache",
+            "patterns": [
+                "I have a stomachache",
+                "How to get rid of a stomachache?",
+                "Any remedies for a stomachache?",
+                "What can I do to relieve a stomachache?",
+                "Dealing with a stomachache, any suggestions?",
+                "Can you recommend solutions for a stomachache?",
+                "My stomach hurts",
+                "Stomachache relief tips",
+                "Help with abdominal pain",
+                "What helps with a stomachache?"
+            ],
+            "responses": [
+                "Avoid heavy or spicy foods that may exacerbate the stomachache.",
+                "Drink peppermint tea to help soothe the digestive system.",
+                "Apply a heating pad to the stomach for comfort.",
+                "Consider over-the-counter antacids for indigestion.",
+                "Rest and allow your digestive system to settle.",
+                "If the stomachache persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "fatigue",
+            "patterns": [
+                "I feel fatigued",
+                "How to overcome fatigue?",
+                "Any remedies for fatigue?",
+                "What can I do to relieve fatigue?",
+                "Dealing with fatigue, any suggestions?",
+                "Can you recommend solutions for fatigue?",
+                "I'm tired all the time",
+                "Fatigue relief tips",
+                "Help with constant tiredness",
+                "What helps with fatigue?"
+            ],
+            "responses": [
+                "Ensure you're getting enough quality sleep each night.",
+                "Incorporate regular exercise into your routine.",
+                "Stay hydrated and maintain a balanced diet.",
+                "Take short breaks throughout the day to rest and recharge.",
+                "Consider practicing stress-reducing activities like meditation or yoga.",
+                "If fatigue persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "back_pain",
+            "patterns": [
+                "I have back pain",
+                "How to relieve back pain?",
+                "Any remedies for back pain?",
+                "What can I do to alleviate back pain?",
+                "Dealing with back pain, any suggestions?",
+                "Can you recommend solutions for back pain?",
+                "My back hurts",
+                "Back pain relief tips",
+                "Help with lower back pain",
+                "What helps with back pain?"
+            ],
+            "responses": [
+                "Apply a cold or hot compress to the affected area for pain relief.",
+                "Practice good posture and avoid prolonged sitting or standing.",
+                "Engage in gentle stretching exercises to improve flexibility.",
+                "Consider over-the-counter pain relievers like ibuprofen.",
+                "Use a supportive mattress and ergonomic chair for better back health.",
+                "If back pain persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "common_cold",
+            "patterns": [
+                "I have a cold",
+                "How to get rid of a cold?",
+                "Any remedies for a cold?",
+                "What can I do to relieve a cold?",
+                "Dealing with a cold, any suggestions?",
+                "Can you recommend solutions for a cold?",
+                "I'm sneezing and coughing",
+                "Cold relief tips",
+                "Help with common cold",
+                "What helps with a cold?"
+            ],
+            "responses": [
+                "Get plenty of rest to support your immune system.",
+                "Stay hydrated by drinking fluids like water, tea, and soup.",
+                "Use saline nasal drops to relieve nasal congestion.",
+                "Consider over-the-counter cold medications for symptom relief.",
+                "Gargle with warm saltwater to soothe a sore throat.",
+                "If symptoms persist or worsen, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "allergies",
+            "patterns": [
+                "I have allergies",
+                "How to relieve allergy symptoms?",
+                "Any remedies for allergies?",
+                "What can I do to alleviate allergy symptoms?",
+                "Dealing with allergies, any suggestions?",
+                "Can you recommend solutions for allergies?",
+                "I'm experiencing allergy symptoms",
+                "Allergy relief tips",
+                "Help with allergic reactions",
+                "What helps with allergies?"
+            ],
+            "responses": [
+                "Identify and avoid triggers that cause allergic reactions.",
+                "Use over-the-counter antihistamines for symptom relief.",
+                "Keep windows closed to prevent allergens from entering your home.",
+                "Use an air purifier to reduce airborne allergens.",
+                "Wash your hands and face frequently to remove allergens.",
+                "If allergy symptoms persist, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "I can't sleep",
+                "How to overcome insomnia?",
+                "Any remedies for insomnia?",
+                "What can I do to improve sleep?",
+                "Dealing with insomnia, any suggestions?",
+                "Can you recommend solutions for sleeplessness?",
+                "I'm having trouble sleeping",
+                "Insomnia relief tips",
+                "Help with sleep problems",
+                "What helps with insomnia?"
+            ],
+            "responses": [
+                "Establish a consistent sleep schedule and bedtime routine.",
+                "Create a comfortable and quiet sleep environment.",
+                "Avoid caffeine and electronic devices before bedtime.",
+                "Engage in relaxing activities like reading or listening to calming music.",
+                "Limit daytime naps to improve nighttime sleep.",
+                "If insomnia persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I feel anxious",
+                "How to cope with anxiety?",
+                "Any remedies for anxiety?",
+                "What can I do to alleviate anxiety?",
+                "Dealing with anxiety, any suggestions?",
+                "Can you recommend solutions for anxious feelings?",
+                "I'm experiencing anxiety",
+                "Anxiety relief tips",
+                "Help with anxious thoughts",
+                "What helps with anxiety?"
+            ],
+            "responses": [
+                "Practice deep breathing exercises to calm the nervous system.",
+                "Engage in regular physical activity to reduce anxiety.",
+                "Consider mindfulness meditation for relaxation.",
+                "Establish a support system and talk to someone about your feelings.",
+                "Limit caffeine intake, as it may exacerbate anxiety.",
+                "If anxiety persists, consult with a mental health professional."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "I feel depressed",
+                "How to cope with depression?",
+                "Any remedies for depression?",
+                "What can I do to alleviate depressive feelings?",
+                "Dealing with depression, any suggestions?",
+                "Can you recommend solutions for depressive thoughts?",
+                "I'm experiencing depression",
+                "Depression relief tips",
+                "Help with feelings of sadness",
+                "What helps with depression?"
+            ],
+            "responses": [
+                "Reach out to friends and family for emotional support.",
+                "Engage in activities you enjoy to boost your mood.",
+                "Consider talking to a mental health professional for counseling.",
+                "Establish a routine to provide structure and purpose.",
+                "Prioritize self-care, including adequate sleep and nutrition.",
+                "If depression persists, consult with a mental health professional."
+            ]
+        },
+        {
+            "tag": "diarrhea",
+            "patterns": [
+                "I have diarrhea",
+                "How to stop diarrhea?",
+                "Any remedies for diarrhea?",
+                "What can I do to relieve diarrhea?",
+                "Dealing with diarrhea, any suggestions?",
+                "Can you recommend solutions for loose stools?",
+                "I'm experiencing diarrhea",
+                "Diarrhea relief tips",
+                "Help with frequent bowel movements",
+                "What helps with diarrhea?"
+            ],
+            "responses": [
+                "Stay hydrated by drinking clear liquids like water and electrolyte drinks.",
+                "Avoid spicy and greasy foods that may worsen diarrhea.",
+                "Consider over-the-counter medications for symptom relief.",
+                "Eat a bland diet with foods like rice, bananas, and toast.",
+                "Rest and allow your digestive system to recover.",
+                "If diarrhea persists, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "I have a migraine",
+                "How to relieve a migraine?",
+                "Any remedies for migraines?",
+                "What can I do to alleviate migraine pain?",
+                "Dealing with migraines, any suggestions?",
+                "Can you recommend solutions for severe headaches?",
+                "I'm experiencing a migraine",
+                "Migraine relief tips",
+                "Help with intense headache",
+                "What helps with migraines?"
+            ],
+            "responses": [
+                "Find a quiet, dark room to rest and reduce sensory stimuli.",
+                "Apply a cold or warm compress to your forehead or neck.",
+                "Consider over-the-counter or prescription migraine medications.",
+                "Practice relaxation techniques such as deep breathing or meditation.",
+                "Identify and avoid triggers that may cause migraines.",
+                "If migraines persist, consult with a healthcare professional."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "I have a migraine",
+                "How to cope with migraines?",
+                "Any remedies for migraine relief?",
+                "Dealing with a severe headache, could it be a migraine?",
+                "Can you recommend solutions for migraines?",
+                "Migraine symptoms",
+                "Migraine relief tips",
+                "What's a good way to prevent migraines?",
+                "How to manage chronic migraines?",
+                "Migraine medication suggestions"
+            ],
+            "responses": [
+                "Find a quiet and dark space to rest during a migraine attack.",
+                "Consider using a cold compress on your forehead.",
+                "Certain medications may help alleviate migraine symptoms; consult a healthcare professional.",
+                "Identify and avoid migraine triggers such as specific foods or stressors.",
+                "Stay hydrated and maintain a regular sleep schedule."
+            ]
+        },
+        {
+            "tag": "stomachflu",
+            "patterns": [
+                "I have stomach flu",
+                "How to ease stomach flu symptoms?",
+                "Any remedies for stomach flu relief?",
+                "Dealing with stomach flu, any suggestions?",
+                "Can you recommend solutions for stomach flu?",
+                "Stomach flu symptoms",
+                "What's a good way to prevent stomach flu?",
+                "How to recover from stomach flu?",
+                "Stomach flu relief tips",
+                "What to eat during stomach flu?"
+            ],
+            "responses": [
+                "Stay hydrated with clear fluids like water, broth, or oral rehydration solutions.",
+                "Rest and avoid solid foods until your stomach settles.",
+                "Consider over-the-counter medications to alleviate symptoms, but consult a healthcare professional first.",
+                "Gradually reintroduce bland and easy-to-digest foods as you recover.",
+                "Practice good hygiene to prevent the spread of stomach flu."
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "I can't sleep at night",
+                "How to deal with insomnia?",
+                "Any remedies for better sleep?",
+                "Dealing with sleeplessness, any suggestions?",
+                "Can you recommend solutions for insomnia?",
+                "Tips for a good night's sleep",
+                "How to improve sleep quality?",
+                "What causes insomnia?",
+                "Natural remedies for insomnia",
+                "Insomnia relief tips"
+            ],
+            "responses": [
+                "Establish a consistent sleep schedule and bedtime routine.",
+                "Create a relaxing sleep environment with dim lights and a comfortable mattress.",
+                "Limit screen time before bedtime and avoid stimulants like caffeine.",
+                "Practice relaxation techniques such as deep breathing or meditation.",
+                "Consider consulting a healthcare professional for persistent insomnia."
+            ]
+        },
+        {
+            "tag": "allergies",
+            "patterns": [
+                "I have allergies",
+                "How to manage allergy symptoms?",
+                "Any remedies for allergy relief?",
+                "Dealing with allergies, any suggestions?",
+                "Can you recommend solutions for allergies?",
+                "Common allergy triggers",
+                "What's a good way to prevent allergies?",
+                "How to ease seasonal allergies?",
+                "Allergy relief tips",
+                "Allergy-friendly lifestyle"
+            ],
+            "responses": [
+                "Identify and avoid allergens that trigger your symptoms.",
+                "Consider over-the-counter antihistamines for allergy relief.",
+                "Use air purifiers and keep windows closed during high pollen seasons.",
+                "Keep living spaces clean, especially bedrooms, to reduce exposure to dust mites.",
+                "Consult an allergist for allergy testing and personalized advice."
+            ]
+        },
+        {
+            "tag": "asthma",
+            "patterns": [
+                "I have difficulty breathing",
+                "How to manage asthma symptoms?",
+                "Any remedies for asthma relief?",
+                "Dealing with asthma, any suggestions?",
+                "Can you recommend solutions for asthma?",
+                "Asthma triggers",
+                "What's a good way to prevent asthma attacks?",
+                "How to use an inhaler properly?",
+                "Asthma management tips",
+                "Living with asthma"
+            ],
+            "responses": [
+                "Keep rescue inhalers accessible and use them as prescribed during an asthma attack.",
+                "Identify and avoid asthma triggers, such as smoke or allergens.",
+                "Follow your asthma action plan provided by your healthcare provider.",
+                "Regularly check and maintain your inhaler devices.",
+                "Consider having a peak flow meter to monitor your lung function."
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": [
+                "I have diabetes",
+                "How to manage blood sugar levels?",
+                "Any remedies for diabetes management?",
+                "Dealing with diabetes, any suggestions?",
+                "Can you recommend solutions for diabetes?",
+                "Diabetes symptoms",
+                "What's a good way to prevent complications from diabetes?",
+                "How to plan a diabetic-friendly diet?",
+                "Diabetes management tips",
+                "Living a healthy life with diabetes"
+            ],
+            "responses": [
+                "Monitor blood sugar levels regularly and adjust insulin or medications as needed.",
+                "Follow a balanced diet with emphasis on whole grains, fruits, and vegetables.",
+                "Engage in regular physical activity to help control blood sugar levels.",
+                "Stay hydrated and be mindful of alcohol consumption.",
+                "Consult with healthcare professionals for personalized diabetes management advice."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "I have joint pain",
+                "How to manage arthritis symptoms?",
+                "Any remedies for arthritis relief?",
+                "Dealing with arthritis, any suggestions?",
+                "Can you recommend solutions for arthritis?",
+                "Arthritis types",
+                "What's a good way to prevent arthritis flare-ups?",
+                "Exercises for arthritis relief",
+                "Arthritis-friendly lifestyle",
+                "Living with arthritis pain"
+            ],
+            "responses": [
+                "Engage in low-impact exercises like swimming or walking to strengthen joints.",
+                "Apply heat or cold packs to alleviate joint pain and stiffness.",
+                "Consider over-the-counter or prescription medications as advised by your doctor.",
+                "Maintain a healthy weight to reduce stress on your joints.",
+                "Explore alternative therapies like acupuncture or physical therapy."
+            ]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": [
+                "I have high blood pressure",
+                "How to manage hypertension?",
+                "Any remedies for high blood pressure relief?",
+                "Dealing with hypertension, any suggestions?",
+                "Can you recommend solutions for high blood pressure?",
+                "Hypertension causes",
+                "What's a good way to prevent high blood pressure complications?",
+                "Diet for hypertension",
+                "Hypertension management tips",
+                "Living a heart-healthy life"
+            ],
+            "responses": [
+                "Monitor blood pressure regularly and take prescribed medications as directed.",
+                "Adopt a low-sodium diet rich in fruits, vegetables, and whole grains.",
+                "Engage in regular aerobic exercise to help lower blood pressure.",
+                "Manage stress through relaxation techniques like deep breathing or yoga.",
+                "Limit alcohol intake and quit smoking to improve overall heart health."
+            ]
+        }
+
+    ]
+
+
+}
